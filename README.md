@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Daserym/Real-Time-Butterworth-Filter">
+  <a href="https://github.com/NsquaredLab/Real-Time-Filter">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -12,7 +12,7 @@
   <p align="center">
     Real-time filters for signal processing.
     <br />
-    <a href="https://github.com/Daserym/Real-Time-Filter/wiki"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/NsquaredLab/Real-Time-Filter/wiki"><strong>Explore the docs »</strong></a>
   </p>
 </div>
 
@@ -49,7 +49,7 @@ Give a brief introduction into the project.
 
  [Dominik I. Braun](https://www.nsquared.tf.fau.de/person/dominik-braun/) - dome.braun@fau.de
 
-Project Link: [https://github.com/NsquaredLab/Biosignal-Device-Interface](https://github.com/NsquaredLab/Biosignal-Device-Interface)
+Project Link: [https://github.com/NsquaredLab/Real-Time-Filter](https://github.com/NsquaredLab/Real-Time-Filter)
 
 
 <!-- GETTING STARTED -->
@@ -75,19 +75,25 @@ poetry install --with dev,docs
 ### Package Installation
 Poetry
 ```Bash
-poetry add git+https://github.com/NsquaredLab/Biosignal-Device-Interface.git
+poetry add git+https://github.com/NsquaredLab/Real-Time-Filter.git
+```
+```Bash
+poetry add rtfilter
 ```
 
 PIP
 ```sh
-pip install git+https://github.com/NsquaredLab/Biosignal-Device-Interface.git
+pip install git+https://github.com/NsquaredLab/Real-Time-Filter.git
+```
+```sh
+pip install rtfilter
 ```
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Examples of how you can use this package can be found in our [examples gallery](https://nsquaredlab.github.io/Biosignal-Device-Interface/auto_examples/index.html).
+TBD
 
 
 <!-- LICENSE -->
@@ -97,8 +103,6 @@ Distributed under the GPL-3.0 license License. See `LICENSE.txt` for more inform
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-* Find available Python and Matlab implementations of OT Bioelettronica's devices on their [website](https://otbioelettronica.it/en/download/). 
-<br>
-Note: The example scripts does not provide you with the same level of utility for GUI implementations.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
